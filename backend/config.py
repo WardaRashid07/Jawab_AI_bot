@@ -2,13 +2,15 @@
 # config.py — Central config. All other files import from here.
 # Keys are loaded from .env so they're never hardcoded.
 # ============================================================
-
+import json
 import os
 from dotenv import load_dotenv
 
 # Load all values from .env file into environment
 load_dotenv()
 
+
+GOOGLE_CREDENTIALS = json.loads(os.getenv("GOOGLE_CREDENTIALS"))
 # --- Gemini AI (Member 1) ---
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
