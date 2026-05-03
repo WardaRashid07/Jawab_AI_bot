@@ -28,10 +28,10 @@ def get_static_folder():
 app = Flask(__name__, 
             template_folder=get_template_folder(),
             static_folder=get_static_folder())'''
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 app = Flask(__name__, 
-            template_folder=get_template_folder(),
-            static_folder=get_static_folder())
-
+            template_folder=os.path.join(BASE_DIR, 'frontend', 'pages'),
+            static_folder=os.path.join(BASE_DIR, 'frontend', 'static'))
 @app.route("/", methods=["GET"])
 def home_page():
     return render_template("index.html")
