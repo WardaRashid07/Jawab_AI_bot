@@ -15,7 +15,7 @@ import os
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 
 # Check if credentials are in environment variable (production)
-creds_json = os.getenv("GOOGLE_CREDENTIALS_JSON")
+creds_json = os.getenv("GOOGLE_CREDENTIALS")
 if creds_json:
     # Use credentials from environment variable
     creds_dict = json.loads(creds_json)
