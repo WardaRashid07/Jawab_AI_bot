@@ -24,6 +24,10 @@ def get_static_folder():
         return '../frontend/static'  # Local development
     return 'static'  # Render/Railway production
 
+''' commented because showing error 
+app = Flask(__name__, 
+            template_folder=get_template_folder(),
+            static_folder=get_static_folder())'''
 app = Flask(__name__, 
             template_folder=get_template_folder(),
             static_folder=get_static_folder())
