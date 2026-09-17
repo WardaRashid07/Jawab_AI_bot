@@ -109,7 +109,7 @@ Jawab/
 ### Step 1 — Clone the repo
 
 ```bash
-git clone https://github.com/p-u-p-x/Jawab.git
+git clone https://github.com/WardaRashid07/Jawab.git
 cd Jawab
 ```
 
