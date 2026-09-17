@@ -15,6 +15,7 @@
 
 In Pakistan, millions of SME owners manage customer support manually. A customer who doesn't get a reply in 10 minutes often doesn't come back. Most small businesses have no system to guarantee fast responses — and enterprise chatbot platforms cost 100,000+ PKR/month.
 
+Built in a 4-person team during the HEC Hackathon (Top Performer distinction among 400+ teams). My contributions: the Google Sheets ticket-logging system (`sheets_handler.py`) and the Telegram Bot API integration (`telegram_handler.py`).
 **Jawab solves this for free.**
 
 ---
