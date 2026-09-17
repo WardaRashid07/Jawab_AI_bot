@@ -32,21 +32,23 @@ In Pakistan, millions of SME owners manage customer support manually. A customer
 
 ## 🏗️ Architecture
 
+```mermaid
+flowchart TD
+    Customer["Customer<br/>(Telegram / Web Chat)"]
+    Flask["Flask Backend<br/>(app.py)"]
+    Classifier["Classifier<br/>Intent Detection"]
+    Gemini["Gemini AI<br/>Reply Generation"]
+    Sheets[("Google Sheets<br/>Ticket Log")]
+    Dashboard["Admin Dashboard<br/>(live updates)"]
+
+    Customer --> Flask
+    Flask --> Classifier
+    Flask --> Gemini
+    Classifier --> Sheets
+    Gemini --> Customer
+    Sheets --> Dashboard
 ```
-    Customer (Telegram / Web)
-               ↓
-     Flask Backend (app.py)
-               ↓
-  ┌────────────┼──────────────┐
-  ↓            ↓              ↓
-Classifier  Gemini AI  Google Sheets
-(Intent)   (Reply)     (Ticket Log)
-  └────────────┼──────────────┘
-               ↓
-   Reply sent back to customer
-               ↓
-   Dashboard updated in real time
-```
+
 
 ---
 
