@@ -317,6 +317,7 @@ Open source. Built during a Gen AI Hackathon. Free to use, modify, and share.
 
 ## 📬 Contact
 
-- ✉️ **Email:** [i.sajeela.noor@gmail.com](mailto:i.sajeela.noor@gmail.com)  
-- 💼 **LinkedIn:** [Sajeela Noor](https://www.linkedin.com/in/sajeela-noor-82b510256)
+- ✉️ **Email:** [i.sajeela.noor@gmail.com](mailto:i.sajeela.noor@gmail.com)  **-[wardahrashid07@gmail.com](mailto:wardahrashid07@gmail.com)**
+
+- 💼 **LinkedIn:** [Sajeela Noor](https://www.linkedin.com/in/sajeela-noor-82b510256) **-[Warda_Rashid_Butt](www.linkedin.com/in/warda-rashid-2415632a7)
 
